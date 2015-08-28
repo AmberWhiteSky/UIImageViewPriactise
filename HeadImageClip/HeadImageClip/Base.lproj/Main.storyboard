@@ -24,7 +24,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="image" destination="GPB-WS-wFI" id="Ws7-mZ-8eg"/>
+                        <outlet property="imageView" destination="GPB-WS-wFI" id="7Ca-3r-EvC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C711FDE1B8FF79F00AEF98F /* UIImage+OneImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C711FDD1B8FF79F00AEF98F /* UIImage+OneImageView.m */; };
 		3C7FB92F1B8F51E100774C4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FB92E1B8F51E100774C4C /* main.m */; };
 		3C7FB9321B8F51E100774C4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FB9311B8F51E100774C4C /* AppDelegate.m */; };
 		3C7FB9351B8F51E200774C4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FB9341B8F51E200774C4C /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C711FDC1B8FF79F00AEF98F /* UIImage+OneImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OneImageView.h"; sourceTree = "<group>"; };
+		3C711FDD1B8FF79F00AEF98F /* UIImage+OneImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OneImageView.m"; sourceTree = "<group>"; };
 		3C7FB9291B8F51E100774C4C /* HeadImageClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadImageClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7FB92D1B8F51E100774C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C7FB92E1B8F51E100774C4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 		3C7FB92C1B8F51E100774C4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C711FDC1B8FF79F00AEF98F /* UIImage+OneImageView.h */,
+				3C711FDD1B8FF79F00AEF98F /* UIImage+OneImageView.m */,
 				3C7FB92D1B8F51E100774C4C /* Info.plist */,
 				3C7FB92E1B8F51E100774C4C /* main.m */,
 			);
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C7FB9351B8F51E200774C4C /* ViewController.m in Sources */,
+				3C711FDE1B8FF79F00AEF98F /* UIImage+OneImageView.m in Sources */,
 				3C7FB9321B8F51E100774C4C /* AppDelegate.m in Sources */,
 				3C7FB92F1B8F51E100774C4C /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				3C7FB94E1B8F51E200774C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C7FB94F1B8F51E200774C4C /* Build configuration list for PBXNativeTarget "HeadImageClipTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				3C7FB9511B8F51E200774C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
